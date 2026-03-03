@@ -20,25 +20,12 @@ The goal is to get everyone safely across.
 
 ## Algorithms
 
-| Algorithm | Complete | Optimal | Time Complexity | Space Complexity |
-|---|---|---|---|---|
-| BFS | ✅ | ✅ | O(b^d) | O(b^d) |
-| DFS | ✅ | ❌ | O(b^m) | O(bm) |
-| DLS | ❌ | ❌ | O(b^l) | O(bl) |
-| IDS | ✅ | ✅ | O(b^d) | O(bd) |
-
-`b` = branching factor, `d` = solution depth, `m` = max depth, `l` = depth limit
-
-- **BFS** — explores level by level, guaranteed to find the shortest path
-- **DFS** — dives deep before backtracking, memory-efficient but not optimal
-- **DLS** — DFS with a hard depth cap, useful when you have a rough idea of solution depth
-- **IDS** — runs DLS with an increasing limit, getting the best of both BFS and DFS
+- **BFS (Breadth-first Search)** — explores level by level, guaranteed to find the shortest path
+- **DFS (Depth-first Search)** — dives deep before backtracking, memory-efficient but not optimal
+- **DLS (Depth Limited Search)** — DFS with a hard depth cap, useful when you have a rough idea of solution depth
+- **IDS (Iterative Deepening Search)** — runs DLS with an increasing limit, getting the best of both BFS and DFS
 
 ---
-
-## Getting Started
-
-No dependencies outside the standard library.
 
 **Requirements:** Python 3.7+
 
@@ -85,23 +72,8 @@ Goal: Move all 3 missionaries and 3 cannibals from
 ## Project Structure
 
 ```
-missionaries-cannibals/
-└── missionaries_cannibals.py   # problem definition + all four search algorithms
+Q3-SearchProblem/
+└── search.py   
 └── README.md
 ```
 
----
-
-## Concepts Covered
-
-- Uninformed (blind) search
-- State space representation
-- Frontier and explored set management
-- Path reconstruction via parent mapping
-- Recursive vs. iterative search
-
----
-
-## License
-
-MIT — feel free to use this for studying, teaching, or building on top of it.
