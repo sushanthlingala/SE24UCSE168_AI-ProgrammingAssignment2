@@ -31,11 +31,11 @@ The goal is to get everyone safely across.
 
 ```bash
 # clone the repo
-git clone https://github.com/your-username/missionaries-cannibals.git
-cd missionaries-cannibals
+git clone https://github.com/sushanthlingala/SE24UCSE168_AI-ProgrammingAssignments
+cd Q3-SearchProblem
 
 # run it
-python missionaries_cannibals.py
+python search.py
 ```
 
 ---
@@ -43,14 +43,6 @@ python missionaries_cannibals.py
 ## Sample Output
 
 ```
-╔══════════════════════════════════════════════════════╗
-║       Missionaries & Cannibals — Search Solver       ║
-╚══════════════════════════════════════════════════════╝
-
-Goal: Move all 3 missionaries and 3 cannibals from
-      the left bank to the right bank without letting
-      cannibals outnumber missionaries on either side.
-
 ───────────────────────────────────────────────────────
   Breadth-First Search (BFS)
 ───────────────────────────────────────────────────────
