@@ -1,4 +1,4 @@
-# Turing Test & CAPTCHA Implementation
+# Turing Test & CAPTCHA Implementation and Architecture
 
 ---
 
