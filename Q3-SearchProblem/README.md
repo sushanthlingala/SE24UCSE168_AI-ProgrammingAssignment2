@@ -1,6 +1,6 @@
 # Missionaries & Cannibals — Search Solver
 
-A Python implementation of the classic **Missionaries and Cannibals** river-crossing problem, solved using four uninformed search algorithms. Built as a clean, readable demonstration of fundamental AI search strategies.
+An implementation of the **Missionaries and Cannibals** problem, solved using four uninformed search algorithms - BFS, DFS, DLS and IDS (explained later).
 
 ---
 
@@ -21,9 +21,9 @@ The goal is to get everyone safely across.
 ## Algorithms
 
 - **BFS (Breadth-first Search)** — explores level by level, guaranteed to find the shortest path
-- **DFS (Depth-first Search)** — dives deep before backtracking, memory-efficient but not optimal
-- **DLS (Depth Limited Search)** — DFS with a hard depth cap, useful when you have a rough idea of solution depth
-- **IDS (Iterative Deepening Search)** — runs DLS with an increasing limit, getting the best of both BFS and DFS
+- **DFS (Depth-first Search)** — Backtracks after exploring deepest levels first, not optimal but has higher memory efficiency as compared to BSF
+- **DLS (Depth Limited Search)** — DFS with a depth limit, useful when you have a rough idea of solution depth
+- **IDS (Iterative Deepening Search)** — runs DLS with an increasing limit, which is essentially combining both DFS and BSF
 
 ---
 
