@@ -171,7 +171,7 @@ def print_results(name, path, nodes_expanded, elapsed, show_path=True):
         print("  Result  : No solution found")
         return
 
-    print("  Result  : Solution found ✓")
+    print("  Result  : Solution found ")
     print(f"  Depth   : {len(path) - 1} moves")
     print(f"  Nodes   : {nodes_expanded} expanded")
     print(f"  Time    : {elapsed * 1000:.4f} ms")
