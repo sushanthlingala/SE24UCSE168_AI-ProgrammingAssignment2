@@ -59,11 +59,14 @@ python search.py
 
 ---
 
+For detailed algorithm comparison see [PERFORMANCE_COMPARISON.md](PERFORMANCE_COMPARISON.md)
+
 ## Project Structure
 
 ```
-Q3-SearchProblem/
-└── search.py   
-└── README.md
+Q3-SearchProblem
+├── search.py
+├── README.md
+└── PERFORMANCE_COMPARISON.md
 ```
 
