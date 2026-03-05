@@ -44,7 +44,7 @@ python search.py
 ───────────────────────────────────────────────────────
   Breadth-First Search (BFS)
 ───────────────────────────────────────────────────────
-  Result  : Solution found ✓
+  Result  : Solution found 
   Depth   : 11 moves
   Nodes   : 15 expanded
   Time    : 0.0821 ms
