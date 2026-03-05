@@ -5,6 +5,10 @@
 
 **The codes and related documentation (if required) have been posted within the respective folders (named as per the question).**
 
+To clone this entire repository, please use **git clone --recurse-submodules https://github.com/sushanthlingala/SE24UCSE168_AI-ProgrammingAssignments.git**
+
+**Do note that the second question has been added as a Git submodule as it was worked on in a separate repository as a group.**
+
 
 
 
