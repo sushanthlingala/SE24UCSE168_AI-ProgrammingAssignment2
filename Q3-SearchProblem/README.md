@@ -1,4 +1,4 @@
-# Missionaries & Cannibals — Search Solver
+# Q3 – Search Problem - Missionaries and Cannibals
 
 An implementation of the **Missionaries and Cannibals** problem, solved using four uninformed search algorithms - BFS, DFS, DLS and IDS (explained later).
 
