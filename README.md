@@ -1,6 +1,6 @@
-# AI Programming Assignments – CS2201
+# AI Programming Assignment 1 – CS2201
 
-This repository currently contains the codes and documentations for the following questions detailed in our Programming Assignment - 1 for the CS-2201 course:
+This repository currently contains the codes and documentations for the following questions detailed in our Programming Assignment 1 for the CS-2201 course:
 
     1. Think of how Turing test and Captcha could be implemented. Suggest an appropriate architecture for their design.
     2. Design and Develop an simple reflex agent that takes environmental parameters from sensors (here, as a file with data) and tells the AQI in the region.
