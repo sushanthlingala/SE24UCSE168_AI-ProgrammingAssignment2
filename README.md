@@ -1,6 +1,6 @@
-# AI Programming Assignment 1 – CS2201
+# AI Programming Assignment 2 – CS2201
 
-This repository currently contains the codes and documentations for the following questions detailed in our Programming Assignment 1 for the CS-2201 course:
+This repository currently contains the codes and documentations for the following questions detailed in our Programming Assignment 2 for the CS-2201 course:
 
     1. Think of how Turing test and Captcha could be implemented. Suggest an appropriate architecture for their design.
     2. Design and Develop an simple reflex agent that takes environmental parameters from sensors (here, as a file with data) and tells the AQI in the region.
@@ -8,7 +8,7 @@ This repository currently contains the codes and documentations for the followin
 
 The codes and related documentation (if required) have been posted within the respective folders (named as per the question).
 
-To clone this entire repository, please use git clone --recurse-submodules https://github.com/sushanthlingala/SE24UCSE168_AI-ProgrammingAssignments.git
+To clone this entire repository, please use git clone --recurse-submodules https://github.com/sushanthlingala/SE24UCSE168_AI-ProgrammingAssignment2.git
 
 Do note that the second question has been added as a Git submodule as it was worked on in a separate repository as a group.
 
